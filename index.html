@@ -4,147 +4,37 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Daily AI Patterns</title>
-  <meta name="description" content="매일의 문제를 AI와 함께 푸는 방법. 첫 번째 패턴: AI를 활용한 PC 저장 공간 관리하는 방법." />
+  <meta name="description" content="AI를 일상에 쓰는 짧은 패턴 모음." />
   <meta property="og:title" content="Daily AI Patterns" />
-  <meta property="og:description" content="매일의 문제를 AI와 함께 푸는 방법" />
+  <meta property="og:description" content="AI를 일상에 쓰는 짧은 패턴 모음" />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Daily AI Patterns home">Daily AI Patterns</a>
-    <nav aria-label="주요 섹션">
-      <a href="#pattern">첫 패턴</a>
-      <a href="#routine">자동화</a>
-      <a href="#principle">원칙</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero">
+  <main class="home">
+    <header class="hero compact">
       <p class="eyebrow">AI 활용 214 패턴</p>
-      <h1>매일의 문제를<br />AI와 함께 푸는 방법</h1>
+      <h1>Daily AI Patterns</h1>
       <p class="hero-copy">
-        거창한 AI 강의보다, 실제 생활에서 AI를 어떻게 쓰는지 기록합니다.
-        첫 번째 기록은 PC 저장 공간을 AI와 함께 진단하고 관리하는 방법입니다.
+        일상에서 AI를 어떻게 쓰는지 짧게 기록합니다.
+        홈에는 제목만 모아두고, 자세한 내용은 각 패턴 안에 정리합니다.
       </p>
-      <div class="hero-actions">
-        <a class="button" href="#pattern">첫 패턴 읽기</a>
-        <a class="button secondary" href="#routine">정기 점검 아이디어</a>
-      </div>
-    </section>
+    </header>
 
-    <section class="intro card">
-      <h2>프로젝트 소개</h2>
-      <p>
-        <strong>Daily AI Patterns</strong>는 일상, 육아, 공부, 업무 준비, 디지털 관리에서
-        AI와 LLM을 실제로 활용한 방법을 짧고 실용적인 패턴으로 정리하는 공개 기록입니다.
-      </p>
-    </section>
-
-    <section id="pattern" class="article">
-      <p class="pattern-number">Pattern 001</p>
-      <h2>AI를 활용한 PC 저장 공간 관리하는 방법</h2>
-
-      <div class="summary-box">
-        <strong>핵심 메시지</strong>
-        <p>
-          AI에게 PC 관리를 맡긴다는 건 마음대로 삭제하게 하는 것이 아닙니다.
-          AI를 활용해 원인을 찾고, 위험도를 나누고, 내가 결정할 수 있게 만드는 것입니다.
-        </p>
-      </div>
-
-      <div class="grid two">
-        <article class="card">
-          <h3>상황</h3>
-          <p>
-            PC 저장 공간이 갑자기 부족해졌습니다. 단순히 “뭘 지우면 돼?”라고 묻기보다,
-            AI에게 현재 상태를 함께 진단하게 했습니다.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>AI에게 맡긴 일</h3>
-          <ul>
-            <li>현재 디스크 여유 공간 확인</li>
-            <li>시스템 swap 사용량 확인</li>
-            <li>macOS 업데이트/Preboot 영역 확인</li>
-            <li>Docker/Colima 용량 확인</li>
-            <li>작업 데이터와 스냅샷 확인</li>
-            <li>지워도 되는 것과 위험한 것 구분</li>
-          </ul>
-        </article>
-      </div>
-
-      <article class="card wide">
-        <h3>실제로 얻은 도움</h3>
-        <p>
-          AI는 용량이 큰 항목을 단순히 나열하는 데서 끝나지 않고,
-          삭제 위험도를 나눠줬습니다.
-        </p>
-        <ul class="check-list">
-          <li>정리 가능한 스냅샷은 삭제 후보로 분류</li>
-          <li>macOS Preboot처럼 부팅/업데이트와 연결된 영역은 직접 삭제 위험으로 분류</li>
-          <li>swap은 재부팅으로 자연 정리될 수 있다고 판단</li>
-          <li>Docker/Colima는 후보지만 사용자 승인 후 정리해야 한다고 구분</li>
-        </ul>
-      </article>
-
-      <article id="principle" class="principle">
-        <h3>이 방법의 포인트</h3>
-        <p>
-          PC 저장 공간 관리는 무작정 삭제하면 위험합니다. AI를 쓰면 좋은 지점은
-          <strong>삭제 자동화</strong>가 아니라 <strong>진단 자동화</strong>입니다.
-        </p>
-      </article>
-
-      <div class="grid two">
-        <article class="card">
-          <h3>AI가 할 일</h3>
-          <ul>
-            <li>어디가 큰지 찾기</li>
-            <li>왜 커졌는지 추정하기</li>
-            <li>지워도 되는 것과 위험한 것 나누기</li>
-            <li>정리 우선순위 제안하기</li>
-            <li>정기 점검 루틴 만들기</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h3>사람이 할 일</h3>
-          <ul>
-            <li>실제 삭제 승인</li>
-            <li>중요한 데이터 여부 판단</li>
-            <li>재부팅/업데이트 같은 시스템 결정</li>
-            <li>불확실한 항목은 보류하기</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="routine" class="routine card">
-      <h2>정기 점검 자동화 아이디어</h2>
-      <p>매일 또는 주 1회, AI가 아래 항목을 확인하고 문제가 있을 때만 짧게 알려주게 합니다.</p>
-      <div class="routine-list">
-        <span>디스크 여유 공간</span>
-        <span>swap 증가</span>
-        <span>Preboot/업데이트 영역</span>
-        <span>Docker/Colima 누적</span>
-        <span>작업 폴더/백업 증가</span>
-      </div>
-    </section>
-
-    <section class="closing">
-      <h2>한 줄 정리</h2>
-      <p>
-        PC 저장 공간 관리는 AI에게 삭제를 맡기는 게 아니라,
-        진단과 판단 보조를 맡기는 방식으로 쓰는 게 안전합니다.
-      </p>
+    <section class="pattern-list" aria-label="패턴 목록">
+      <h2>패턴 목록</h2>
+      <ol>
+        <li>
+          <a href="patterns/001-storage.html">
+            AI를 활용한 PC 저장 공간 관리하는 방법
+          </a>
+        </li>
+      </ol>
     </section>
   </main>
 
   <footer>
-    <p>Daily AI Patterns · 매일의 문제를 AI와 함께 푸는 방법</p>
+    <p>Daily AI Patterns</p>
   </footer>
 </body>
 </html>
